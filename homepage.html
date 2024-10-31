@@ -1,0 +1,77 @@
+<!-- Html code for the Home Page 
+Includes a few in-line styles -->
+<html>
+<head>
+    <!-- Set the header details -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link the stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="topbar.css">
+    <!-- Set the title of the page -->
+    <title>F.Manahil Travels Home</title>
+    <!-- Set the icon image for the webpage -->
+    <link rel="website icon" type="jpeg" href="Aboutmepic.jpeg">
+    <!-- Link the javascript file for tab navigation -->
+    <script src="homepage.js"></script>
+</head>
+<body>
+    <!-- Fill in the Body -->
+    <!-- Topbar div contains all the content for the menu bar -->
+    <div class="topbar">
+        <div class="brand"><a href="homepage.html" style="text-decoration: none; color: black;">F.M Travels</a></div>
+        <div class="menu">
+            <a href="#" class="currentpage" onclick="homepage()">Home</a>
+            <a href="#" class="menuItem" onclick="photographypage()">Photopgraphy</a>
+            <a href="#" class="menuItem" onclick="destinationpage()">Destinations</a>
+            <a href="#" class="menuItem" onclick="foodpage()">Food</a>
+            <a href="#" class="menuItem" onclick="hackspage()">Hacks</a>
+            <a href="#" class="menuItem" onclick="aboutmepage()">About me</a>           
+            <button class="ctaButton" onclick="contactpage()">Contact Us</button>
+        </div>
+    </div>
+    <!-- The code for the banner -->
+    <section>
+        <div>
+            <!-- Text for the banner -->
+            <br><br><h1>Welcome to F.M Travels!</h1>
+            <h2> Let's explore the world together, one destination at a time!</h2>
+            <h3 style="text-align: right;">Find out more on my 
+            <a class="instabutton" href="https://www.instagram.com/mnzoo_b?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                Instagram</a></h3>
+        </div>
+    </section>
+    <!-- Contains the content of the home page -->
+    <div class="content">
+        <!-- Sets the background image for the text-box -->
+        <div class="bgimage">
+            <!-- Sets the text to be displayed in the text box -->
+            <div class="texts">
+                <h2 style="text-align: center;">Welcome abroad the Aircraft! <br>
+                    Departing for a trip down the memory lane. <br>
+                    Join us as we share some of our favorite memories from travels!</h2>
+                <h3>
+                    <br>To see the pictures from the tours, visit the <a href="photographypage.html" id="links">Photopgraphy Tab.</a> <br>
+                    <br>The <a href="destinationspage.html" id="links">Destinations tab</a> is just the thing for the curious minds!. <br>
+                    <br>We didn't forget the foodies of course! <br>
+                     Head over to the <a href="foodpage.html" id="links">Food tab</a> to see what each country has to offer. <br>
+                    <br> What is a trip without life hacks? <br>
+                    The <a href="hackspage.html" id="links">Hacks tab</a> includes all hacks we gathered from all the places toured! <br>
+                    <br> Find out more about me through the <a href="aboutmepage.html" id="links">About Me</a> tab! <br>
+                    <br> Want to collaborate? Promote? Click the Contact button and fill out the form! <br>
+                    <br> We will reply via email!
+                </h3>
+            </div>
+        </div>
+        <!-- The images to be displayed next to the text box -->
+        <div class="images">
+            <img src="Aboutmepic.jpeg" alt="Emirates" title="Emirates">
+            <img src="kwtme.jpeg" alt="Kuwait" title="Kuwait">
+            <img src="pakme.jpeg" alt="Pakistan" title="Pakistan">
+            <img src="qatarme.jpeg" alt="Qatar" title="Qatar">
+            <img src="bahrainme.jpeg" alt="Bahrain" title="Bahrain">
+        </div>
+    </div>
+</body>
+</html>

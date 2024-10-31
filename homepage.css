@@ -1,0 +1,89 @@
+/* This code is for the banner
+It has a background pic and sets the text styles 
+as well as the banner dimensions, borders and padding. */
+section{
+    height: 200px;
+    width: auto;
+    flex-wrap: wrap;
+    background-image: url(https://i.pinimg.com/736x/61/b9/24/61b924ba87b160b720eb79cd17f31657.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(234, 210, 253);
+}
+
+/* This style is for the instagram link in the banner.
+It changes the colour to one similar to the text in the banner. */
+.instabutton{
+    text-decoration: underline;
+    color: rgb(226, 204, 248);
+}
+
+/* This sets the grid for the text box and the images. */
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+/* The image height and width is set here */
+.images{
+    display: flex;
+    width: 600px;
+    height: 620px;
+}
+
+/* The images set using the <img> tag are styled for normal. */
+.images img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .5s ease;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+/* They are styled here for when they are hovered on, 
+expanding horizontally. */
+.images img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/* The textbox has a background gradient, and the text is set here.
+The border, padding, height, margin are also set here. */
+.texts{
+    background: linear-gradient(#b0a2ba53,#ece9dd56,#c4b8a456);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: black;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 2%;
+    height: 550px;
+    color: rgb(0, 0, 0);
+}
+
+/* The links in the textbox are styled to mactch the rest of the text.
+They are underlined to show that they are links. */
+#links{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+/* The image used for the outter box of the text box is set here. */
+.bgimage{
+    background-image: url(https://i.pinimg.com/736x/ba/e0/df/bae0df5d52b103513ad61dc9a7c945fd.jpg);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    height: 600px;
+    background-position: 50%;
+}
+

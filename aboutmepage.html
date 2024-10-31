@@ -1,0 +1,79 @@
+<!-- Html code for the About Me Page 
+Includes a few in-line styles-->
+<html>
+    <head>
+        <!-- Set the header details -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Link the CSS Sheets (from internet for the topbar div) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="aboutmepage.css">
+        <link rel="stylesheet" href="topbar.css">
+        <!-- Set the Title of the page -->
+        <title>F.Manahil Travels About Me</title>
+        <!-- Set the icon for the webpage -->
+        <link rel="website icon" type="jpeg" href="Aboutmepic.jpeg">
+        <!-- Link the javascript file for the tab navigation -->
+        <script src="homepage.js"></script>
+    </head>
+    <body>
+        <!-- Fill in the Body -->
+        <!-- Topbar div contains the website name (linked to the homepage(this page)) and the other pages in this blog-->
+        <div class="topbar">
+            <div class="brand"><a href="homepage.html" style="text-decoration: none; color: black;">F.M Travels</a></div>
+            <!-- Menu div contains the Page names and the events for when clicked. -->
+            <div class="menu">
+                <a href="#" class="menuItem" onclick="homepage()">Home</a>
+                <a href="#" class="menuItem" onclick="photographypage()">Photopgraphy</a>
+                <a href="#" class="menuItem" onclick="destinationpage()">Destinations</a>
+                <a href="#" class="menuItem" onclick="foodpage()">Food</a>
+                <a href="#" class="menuItem" onclick="hackspage()">Hacks</a>
+                <a href="#" class="currentpage" onclick="aboutmepage()">About me</a>           
+                <button class="ctaButton" onclick="contactpage()">Contact Us</button>
+            </div>
+        </div>
+        <!-- The banner code -->
+        <section class="span">
+            <!-- Text in the banner -->
+            <h1 id="headings">About Me- <br> </h1>
+            <h2 id="headings">Get to know the Blogger</h2>
+        </section>
+        <!-- Contain div contains the about me div -->
+        <!-- The reason the contain div and about me are seperate is for the effect -->
+        <div class="contain">
+            <!-- Aboutme contains the actual information for this page. -->
+            <div class="Aboutme">
+                <h1 style="text-align: center; color: rgb(54, 6, 98)">About me</h1>
+                <p><strong>Hi! Nice to meet you!<br> 
+                    I'm Manahil, an 18 year old who loves to travel. <br>
+                    I love photopgraphing people and sceneries, my gallery <br>
+                    is filled with pictures of the sky, the scenery and <br>
+                    my friends and family. <br>
+                    <br>Please feel free to browse through my blog, if you have <br>
+                    any questions, use the contact form to email me. <br>
+                </p>
+                <br>
+                <h2 style="text-align: center; color: rgb(54, 6, 98)">My other hobbies</h2>
+                <p>Some of my other hobbies include: <br>
+                    Writing <br>
+                    Reading <br>
+                    Crochetting <br>
+                </p>
+                <br>
+                <h2 style="text-align: center; color: rgb(54, 6, 98);">
+                    A few places I've visited <br>
+                    or Lived in
+                </h2>
+                <p>
+                    Pakistan <br>
+                    Kuwait <br>
+                    United Arab Emirates <br>
+                    Saudi Arabia <br>
+                    Qatar <br>
+                    Bahrain <br>
+                    United Kingdom <br></strong>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,142 @@
+<!-- Html code for the Photography page
+Includes a few in-line styles -->
+<html>
+<head>
+    <!-- Set the header details -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link the stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="topbar.css">
+    <link rel="stylesheet" href="foodpage.css">
+    <!-- Set the title of the page -->
+    <title>F.Manahil Travel Foods</title>
+    <!-- Set the icon image for the webpage -->
+    <link rel="website icon" type="jpeg" href="Aboutmepic.jpeg">
+    <!-- Link the javascript file for tab navigation -->
+    <script src="homepage.js"></script>
+</head>
+<body> 
+    <!-- Fill in the Body -->
+    <!-- Topbar div contains all the content for the menu bar -->
+    <div class="topbar">
+        <div class="brand"><a href="homepage.html" style="text-decoration: none; color: black;">F.M Travels</a></div>
+        <div class="menu">
+            <a href="#" class="menuItem" onclick="homepage()">Home</a>
+            <a href="#" class="menuItem" onclick="photographypage()">Photopgraphy</a>
+            <a href="#" class="menuItem" onclick="destinationpage()">Destinations</a>
+            <a href="#" class="currentpage" onclick="foodpage()">Food</a>
+            <a href="#" class="menuItem" onclick="hackspage()">Hacks</a>
+            <a href="#" class="menuItem" onclick="aboutmepage()">About me</a>           
+            <button class="ctaButton" onclick="contactpage()">Contact Us</button>
+        </div>
+    </div>
+    <!-- The code for the banner -->
+    <section class="span">
+        <!-- Text for the banner -->
+        <h1 id="headings">Food- <br> </h1>
+        <h2 id="headings">Taste the Happiness</h2>
+    </section>
+    <!-- Contains the content of the home page -->
+    <div class="container">
+        <!-- Sets the pictures for the slideshow -->
+        <div class="photos">
+            Pakistan <br>
+            <img src="https://i.pinimg.com/564x/f2/22/5e/f2225ef60cbdb43d8ca31c89fdcc4cc3.jpg" alt="p1" class="pakimage" title="Nihari">
+            <img src="https://i.pinimg.com/736x/f5/17/c2/f517c22da6bb5dc11dd9657fcd986c34.jpg" alt="p2" class="pakimage" title="Gol Gappa">
+            <img src="https://i.pinimg.com/474x/68/4e/d1/684ed14aa7bcab75d073ba42e6080c98.jpg" alt="p3" class="pakimage" title="Gulab Jamun">
+            <img src="https://i.pinimg.com/736x/8b/7f/09/8b7f0948c16b00032c69ba0fe248a4ff.jpg" alt="p4" class="pakimage" title="Kulfi">
+            <img src="https://i.pinimg.com/564x/b4/2f/42/b42f4244d155153025bf0b552fb1ee1d.jpg" alt="p5" class="pakimage" title="Rooh Afza">
+
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'pakimage')">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'pakimage')">&#10095;</button>
+        </div>
+        <!-- Sets the pictures for the slideshow -->
+        <div class="photos">
+            Kuwait <br>
+            <img src="https://i.pinimg.com/564x/7b/b7/c4/7bb7c4bc2c55dde258f186f1e933c46a.jpg" alt="kw1" class="kwtimage" title="Luqaimat">
+            <img src="https://i.pinimg.com/736x/b7/e4/88/b7e488834bb0b51b7d63bb158f226160.jpg" alt="kw2" class="kwtimage" title="KDD Milk">
+            <img src="https://i.pinimg.com/736x/06/45/e4/0645e4c23ca38804307a91fce389c2ad.jpg" alt="kw3" class="kwtimage" title="Falafel">
+            <img src="https://i.pinimg.com/736x/2d/5b/59/2d5b5902cc9bec12c2a626204e3faf58.jpg" alt="kw4" class="kwtimage" title="Majboos">
+            <img src="https://i.pinimg.com/564x/df/7b/77/df7b778dc0e385ea7e72a059754391c6.jpg" alt="kw5" class="kwtimage" title="Kunafa">
+
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'kwtimage')">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'kwtimage')">&#10095;</button>
+        </div>
+        <!-- Sets the pictures for the slideshow -->
+        <div class="photos">
+            KSA <br>
+            <img src="https://i.pinimg.com/564x/6b/91/2f/6b912f5e8c191f3addc3153847c86068.jpg" alt="ks1" class="ksaimage" title="Arabic Coffee">
+            <img src="https://i.pinimg.com/736x/48/11/ea/4811eac9290fa8d50e8a44b658e11618.jpg" alt="ks2" class="ksaimage" title="Al Baik">
+            <img src="https://i.pinimg.com/564x/fb/a2/f7/fba2f75e2eef01a80d97e83a96ea37cb.jpg" alt="ks3" class="ksaimage" title="Talumba">
+            <img src="https://i.pinimg.com/736x/6a/81/06/6a810658a5d4403aa4cbc57a814f97e7.jpg" alt="ks4" class="ksaimage" title="Hummus">
+            <img src="https://i.pinimg.com/736x/45/9b/f8/459bf8f3875f2e2e50adce1acb414d0d.jpg" alt="ks5" class="ksaimage" title="Sambosa">
+
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'ksaimage')">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'ksaimage')">&#10095;</button>
+        </div>
+        <!-- Sets the pictures for the slideshow -->
+        <div class="photos">
+            UAE <br>
+            <img src="https://i.pinimg.com/474x/8d/ad/08/8dad088eb6822ce7ac8d36c9be47d9f6.jpg" alt="u1" class="uaeimage" title="Dumplings">
+            <img src="https://i.pinimg.com/564x/82/1b/e6/821be6713d730fcfd2bd6659b432b4fa.jpg" alt="u2" class="uaeimage" title="Sweets">
+            <img src="https://i.pinimg.com/564x/44/d5/a5/44d5a5cde97e83925727ca19b522876f.jpg" alt="u3" class="uaeimage" title="Falafel">
+            <img src="https://i.pinimg.com/564x/2f/98/d1/2f98d15c55b6c89822f44f8ce612c23e.jpg" alt="u4" class="uaeimage">
+            <img src="https://i.pinimg.com/736x/2b/0d/ac/2b0dac1d448eb4433b122869b6c043fc.jpg" alt="u5" class="uaeimage">
+
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'uaeimage')">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'uaeimage')">&#10095;</button>
+        </div>
+        <!-- Sets the pictures for the slideshow -->
+        <div class="photos">
+            Qatar <br>
+            <img src="https://i.pinimg.com/736x/0d/98/ae/0d98ae217a7d2195112c42506233bded.jpg" alt="q1" class="qatimage">
+            <img src="https://i.pinimg.com/736x/28/d4/06/28d4066ea7f2617094356f7d048c87e7.jpg" alt="q2" class="qatimage">
+            <img src="https://i.pinimg.com/736x/c7/72/74/c77274b14d545c3688e3093e383e97b9.jpg" alt="q3" class="qatimage">
+            <img src="https://i.pinimg.com/736x/b7/ef/3f/b7ef3ffb1713562d66573cd01c4dd817.jpg" alt="q4" class="qatimage">
+            <img src="https://i.pinimg.com/736x/83/3d/e3/833de302b67412799090e20de805c4e1.jpg" alt="q5" class="qatimage">
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'qatimage')">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'qatimage')">&#10095;</button>
+        </div>
+        <!-- Sets the pictures for the slideshow -->
+        <div class="photos">
+            Bahrain<br>
+            <img src="https://i.pinimg.com/564x/8b/0f/77/8b0f771374fd63a92ce15f19362546c4.jpg" alt="b1" class="bahimage" title="">
+            <img src="https://i.pinimg.com/564x/6d/1a/59/6d1a59ee96dd97673afba99f16617335.jpg" alt="b2" class="bahimage" title="Halwa Showaiter">
+            <img src="https://i.pinimg.com/736x/63/83/f2/6383f28c9b63e43d621c6a01fb4928c6.jpg" alt="b3" class="bahimage">
+            <img src="https://i.pinimg.com/736x/02/91/a2/0291a2e7b89e5a1660c6621d77348dc5.jpg" alt="b4" class="bahimage">
+            <img src="https://i.pinimg.com/736x/f2/e1/36/f2e136342ff8814f2e1779e0779c6620.jpg" alt="b5" class="bahimage">
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'bahimage')">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'bahimage')">&#10095;</button>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    // Set the slides visible to 1 
+    // This shows only the first slide
+    var slideIndex = 1;
+    showDivs(slideIndex, 'pakimage');
+    showDivs(slideIndex, 'kwtimage');
+    showDivs(slideIndex, 'ksaimage');
+    showDivs(slideIndex, 'uaeimage');
+    showDivs(slideIndex, 'qatimage');
+    showDivs(slideIndex, 'bahimage');
+
+    // Function to show next or previous slide
+    function plusDivs(n, classname) {
+        showDivs(slideIndex += n, classname);
+    }
+    // Function to show the slides
+    function showDivs(n, classname) {
+        var i;
+        var x = document.getElementsByClassName(classname);
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+    }
+</script>

@@ -1,0 +1,49 @@
+/* This code is for the banner
+It has the Background image, sets the text-align,
+border and height. */
+.span{
+    background-image: url(https://i.pinimg.com/736x/9a/ea/86/9aea8697d010d8fc8eb0277422e9f28a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: rgba(240, 248, 255, 0.612);
+    border-radius: 20px;
+    height: 200px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+}
+/* This style is for the text on the banner.
+The background pic is cliped to the text. */
+#headings{
+    color: transparent; /* Hide the text */
+    background-image: url(https://i.pinimg.com/736x/d1/d4/9d/d1d49dc85fda66ac675184a582764954.jpg); 
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text;
+    font-size: 35;
+}
+/* This is the bg for the about me text box */
+.contain {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    border: solid #faecff; 
+    border-radius: 20px;
+    padding: 20px; 
+    width: 800px; 
+    margin: 10 auto; 
+    background-image: url(bahrainme.jpeg);
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* This is the about me text box, it has the content */
+.Aboutme{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    border: solid #faecff; 
+    border-radius: 20px;
+    padding: 20px; 
+    background: linear-gradient(#ffffff9a,#eacefb78,#c4b8a479);
+}
+
+

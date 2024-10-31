@@ -1,0 +1,85 @@
+/* This code is for the banner
+It sets the bg image, text-align, 
+border and height. */
+.span{
+    background-image: url(https://i.pinimg.com/736x/4c/8b/65/4c8b65b2222dd6add9eb79ec1111af1a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 54%;
+    border-color: rgba(240, 248, 255, 0.612);
+    border-radius: 20px;
+    height: 200px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+}
+/* This style is for the text on the banner.
+The background pic is cliped to the text. */
+#headings{
+    color: transparent; /* Hide the text */
+    background-image: url(https://i.pinimg.com/736x/0f/2e/16/0f2e16f0b0639640b32c76c416c543b0.jpg);
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text;
+    font-size: 35;
+}
+/* This sets the grid for the slideshows */
+.container{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 20px;
+    margin: 50px;
+}
+/* This sets the bg for the photo boxes.
+Also sets the border, height, padding and alignment. */
+.photos{
+    background: linear-gradient(#ffffff1f,#eacefb11,#c4b8a410);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid #0000004e;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 20px;
+    height: auto;
+    flex-wrap: wrap;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+}
+/* This styles the text in the hacks boxes. */
+.text{
+    background-color: #faecffaf;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15;
+    font-weight: bold;
+    border: solid #faecff; 
+    border-radius: 20px;
+    padding: 5px; 
+    box-shadow: #000000;
+
+}
+
+/* This is the bg for pak hacks */
+#pak{
+    background-image: url(pakflag.jpeg);
+}
+/* This is the bg for kuwait hacks */
+#kwt{
+    background-image: url(kwt.png);
+}
+/* This is the bg for ksa hacks */
+#ksa{
+    background-image: url(ksa.png);
+}
+/* This is the bg for uae hacks */
+#uae{
+    background-image: url(uae.png);
+}
+/* This is the bg for qatar hacks */
+#qat{
+    background-image: url(qatar.jpeg);
+}
+/* This is the bg for bahrain hacks */
+#bah{
+    background-image: url(bahrain.png);
+}

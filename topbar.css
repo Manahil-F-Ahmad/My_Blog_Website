@@ -1,0 +1,93 @@
+/* This sets the stylings for the body of the html
+Including the background gradient. */
+body { 
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background: linear-gradient(#b0a2ba,#ece9dd,#c4b8a4);
+}
+
+/* This sets the style of the navigation bar */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d8c6e5;
+    color: #000000;
+    padding: 10px 20px;
+    box-shadow: 0 6px 9px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+
+/* This is the style for the name of the website */
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* This keeps the menu items in the center 
+and also adjusts them accordin to the window size. */
+.menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* This sets the styling for the tabs -
+Home, About Me, Destinations, Food, Hacks, Photography */
+.menuItem {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* This changes colour when hovering over the tabs */
+.menuItem:hover {
+    background-color: #6b00b33d;
+}
+
+/* This is the same as the menuItem, 
+except that the current page the user is on will have the tab coloured. */
+.currentpage{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #bb9db6;
+    text-decoration: none;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* The colour it changes to when hovered on. */
+.currentpage:hover {
+    background-color: #6b00b33d;
+}
+
+/* The Contact Us button
+The styling is almost the same as the menuItems
+except that this is always coloured. */
+.ctaButton {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #c37bf7;
+    color: #000000;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* The colour it changes to when hovered on. */
+.ctaButton:hover {
+    background-color: #6b00b33d;
+}

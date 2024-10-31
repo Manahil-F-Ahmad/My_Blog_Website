@@ -1,0 +1,146 @@
+<!-- Html code for the Photography page
+Includes a few in-line styles -->
+<html>
+<head>
+    <!-- Set the header details -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link the stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="photographypage.css">
+    <link rel="stylesheet" href="topbar.css">
+    <!-- Set the title of the page -->
+    <title>F.Manahil Travels Photopgraphy</title>
+    <!-- Set the icon image for the webpage -->
+    <link rel="website icon" type="jpeg" href="Aboutmepic.jpeg">
+    <!-- Link the javascript file for tab navigation -->
+    <script src="homepage.js"></script>
+</head>
+<body>
+    <!-- Fill in the Body -->
+    <!-- Topbar div contains all the content for the menu bar -->
+    <div class="topbar"> 
+        <div class="brand">
+            <a href="homepage.html" style="text-decoration: none; color: black;">
+                F.M Travels
+            </a>
+        </div>
+        <div class="menu">
+            <a href="#" class="menuItem" onclick="homepage()">Home</a>
+            <a href="#" class="currentpage" onclick="photographypage()">Photopgraphy</a>
+            <a href="#" class="menuItem" onclick="destinationpage()">Destinations</a>
+            <a href="#" class="menuItem" onclick="foodpage()">Food</a>
+            <a href="#" class="menuItem" onclick="hackspage()">Hacks</a>
+            <a href="#" class="menuItem" onclick="aboutmepage()">About me</a>           
+            <button class="ctaButton" onclick="contactpage()">Contact Us</button>
+        </div>
+    </div>
+    <!-- The code for the banner -->
+    <div class="span">
+        <!-- Text for the banner -->
+        <h1 id="headings">Photopgraphy- <br> </h1>
+        <h2 id="headings">The art of freezing a moment in time forever.</h2>
+    </div>
+    <!-- Contains the content of the home page -->
+    <div class="container">
+        <!-- Sets the pictures for the slideshow -->
+        <div class="photos">
+            <strong>Islamic Republic of Pakistan</strong> <br>
+            <img src="pak1.JPG" alt="p1" class="pakimage">
+            <img src="pak2.jpeg" alt="p2" class="pakimage">
+            <img src="pak3.jpeg" alt="p3" class="pakimage">
+            <img src="pak4.jpeg" alt="p4" class="pakimage">
+            <img src="pak5.jpeg" alt="p5" class="pakimage">
+
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'pakimage')">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'pakimage')">&#10095;</button>
+        </div>
+        <!-- Sets the pictures for the slideshow -->
+        <div class="photos">
+            <strong>State of Kuwait</strong> <br>
+            <img src="kwt1.JPG" alt="kw1" class="kwtimage">
+            <img src="kwt2.jpeg" alt="kw2" class="kwtimage">
+            <img src="kwt3.jpeg" alt="kw3" class="kwtimage">
+            <img src="kwt4.jpeg" alt="kw4" class="kwtimage">
+            <img src="kwt5.jpeg" alt="kw5" class="kwtimage">
+
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'kwtimage')">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'kwtimage')">&#10095;</button>
+        </div>
+        <!-- Sets the pictures for the slideshow -->
+        <div class="photos">
+            <strong>Kingdom of Saudi Arabia</strong> <br>
+            <img src="ksa1.jpeg" alt="ks1" class="ksaimage">
+            <img src="ksa2.jpeg" alt="ks2" class="ksaimage">
+            <img src="ksa3.jpeg" alt="ks3" class="ksaimage">
+            <img src="ksa4.jpeg" alt="ks4" class="ksaimage">
+            <img src="ksa5.jpeg" alt="ks5" class="ksaimage">
+
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'ksaimage')">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'ksaimage')">&#10095;</button>
+        </div>
+        <!-- Sets the pictures for the slideshow -->
+        <div class="photos">
+            <strong>United Arab Emirates</strong>
+            <img src="u1.JPG" alt="u1" class="uaeimage">
+            <img src="u2.JPG" alt="u2" class="uaeimage">
+            <img src="u3.JPG" alt="u3" class="uaeimage">
+            <img src="u4.JPG" alt="u4" class="uaeimage">
+            <img src="u5.JPG" alt="u5" class="uaeimage">
+            
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'uaeimage')">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'uaeimage')">&#10095;</button>
+        </div>
+        <!-- Sets the pictures for the slideshow -->
+        <div class="photos">
+            <strong>State of Qatar</strong> <br>
+            <img src="qat1.jpeg" alt="q1" class="qatimage">
+            <img src="qat2.jpeg" alt="q2" class="qatimage">
+            <img src="qat3.jpeg" alt="q3" class="qatimage">
+            <img src="qat4.jpeg" alt="q4" class="qatimage">
+            <img src="qat5.jpeg" alt="q5" class="qatimage">
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'qatimage')">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'qatimage')">&#10095;</button>
+        </div>
+        <!-- Sets the pictures for the slideshow -->
+        <div class="photos">
+            <strong>Kingdom of Bahrain</strong><br>
+            <img src="bah1.JPG" alt="b1" class="bahimage">
+            <img src="bah2.jpeg" alt="b2" class="bahimage">
+            <img src="bah3.jpeg" alt="b3" class="bahimage">
+            <img src="bah4.jpeg" alt="b4" class="bahimage">
+            <img src="bah5.jpeg" alt="b5" class="bahimage">
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'bahimage')">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'bahimage')">&#10095;</button>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    // Set the slides visible to 1 
+    // This shows only the first slide
+    var slideIndex = 1;
+    showDivs(slideIndex, 'pakimage');
+    showDivs(slideIndex, 'kwtimage');
+    showDivs(slideIndex, 'ksaimage');
+    showDivs(slideIndex, 'uaeimage');
+    showDivs(slideIndex, 'qatimage');
+    showDivs(slideIndex, 'bahimage');
+
+    // Function to show next or previous slide
+    function plusDivs(n, classname) {
+        showDivs(slideIndex += n, classname);
+    }
+    // Funtion to show the slides
+    function showDivs(n, classname) {
+        var i;
+        var x = document.getElementsByClassName(classname);
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+    }
+</script>

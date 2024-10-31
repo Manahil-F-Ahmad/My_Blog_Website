@@ -1,0 +1,57 @@
+/* This code is for the banner
+It has the Background image, sets the text-align,
+border and height. */
+.span{
+    background-image: url(https://i.pinimg.com/736x/42/d2/1f/42d21fc408378fb7a67d11c3fe60f639.jpg);
+    border-color: rgba(240, 248, 255, 0.612);
+    border-radius: 20px;
+    height: 200px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+}
+
+/* This style is for the text on the banner.
+The background pic is cliped to the text. */
+#headings{
+    color: transparent; /* Hide the text */
+    background-image: url('https://i.pinimg.com/736x/16/ce/6b/16ce6b1c5773d38bd1a50114caa003a2.jpg'); 
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text;
+}
+/* This sets the grid for the slideshows */
+.container{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 35px;
+    margin: 50px;
+    place-items: center;
+}
+/* This sets the bg for the photo boxes.
+Also sets the border, height, padding and alignment. */
+.photos{
+    background: linear-gradient(#ffffff1f,#eacefb11,#c4b8a410);
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    border-radius: 20px;
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* This sets the height and width to match the photos div */
+.uaeimage, .pakimage, .kwtimage, .bahimage, .qatimage, .ksaimage{
+    height: inherit;
+    width: inherit;
+    border-radius: 10px;
+}
+/* The forward and backwards buttons are styled here */
+.w3-button{
+    background-color: #6b00b31f;
+    place-items: center;
+    margin: 5px 10px 0px 10px;
+    border-radius: 20px;
+    height: 30px;
+    width: 50px;
+}

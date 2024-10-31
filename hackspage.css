@@ -1,0 +1,42 @@
+/* This code is for the banner
+It has the Background image, sets the text-align,
+border and height. */
+.span{
+    background-image: url(https://i.pinimg.com/736x/0e/80/ac/0e80ac50a3f0ad97ed04ea122627acba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: rgba(240, 248, 255, 0.612);
+    border-radius: 20px;
+    height: 200px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+}
+/* This style is for the text on the banner.
+The background pic is cliped to the text. */
+#headings{
+    color: transparent; /* Hide the text */
+    background-image: url(https://i.pinimg.com/736x/0f/2e/16/0f2e16f0b0639640b32c76c416c543b0.jpg);
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text;
+    font-size: 35;
+}
+/* This div sets the grid for the hacks */
+.hacks{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 20px;
+    margin: 50px;
+    height: auto;
+}
+/* This is to style the texts and bg of the hack grids */
+.hackitem{
+    background: linear-gradient(#ffffff1f,#eacefb11,#c4b8a410);
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid #757575;
+    border-radius: 20px;
+    padding: 20px;
+    height: auto;   
+}
+
